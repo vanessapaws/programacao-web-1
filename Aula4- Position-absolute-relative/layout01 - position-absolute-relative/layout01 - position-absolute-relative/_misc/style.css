@@ -1,0 +1,78 @@
+body{
+	width: 100%;
+	height: 100%;
+}
+.container{
+	width: 100%;
+	height: 100%;
+	/*background-color: #ee954c;*/
+	left: 0;	
+	top: 0;
+	position: absolute;
+}
+
+.header{
+	width: 100%;
+	height: 15%;
+	background-color: #c0c0c0;
+	position: relative;
+	left: 0;
+	top: 0;
+}
+
+.logo{
+	width: 10%;
+	height: 100%;
+	background-color: #ddff61;
+	position: relative;
+	left: 0;
+	top: 0;
+}
+
+.menu{
+	width: 10%;
+	height: 80%;
+	background-color: #184ee0;
+	position: relative;
+	left: 0;
+	top: 0;
+}
+
+.section{
+	width: 90%;
+	height: 80%;
+	background-color: #65da74;
+	position: absolute;
+	right: 0;
+	top: 15%;
+}
+
+.footer{
+	width: 100%;	
+	height: 5%;
+	background-color: #ff0000;
+	position: absolute;
+	left: 0;
+	bottom:0;
+	text-align: center;
+}
+
+.img-logo {
+	max-height:50px;
+	width: auto;
+	height: auto;
+}
+
+.p-centraliza {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) 
+}
+
+.ul-menu {
+	list-style-type: square;
+	text-decoration: none;
+	position: absolute;
+}

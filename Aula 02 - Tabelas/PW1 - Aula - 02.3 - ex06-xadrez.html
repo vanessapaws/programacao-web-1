@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando tabelas</title>
+    <style>
+        table{
+            font-family: 'Segoe UI';
+            color: #4314d1;
+        }
+        td{
+            border: 2px;
+            border-style: inset;
+            border-color: lightsalmon;
+            width: 80px;
+            height: 80px;
+        }
+
+        #cor1 {
+            background-color: brown;
+            text-align: center;
+        }
+        #cor2 {
+            background-color: lightsalmon;
+            text-align: center;
+        }
+
+        body {
+            background-color: #2B2730
+;
+        }
+
+        img {
+            width: 60px;
+            height: 70px;
+        }
+    </style>
+</head>
+<body>  
+  <table>
+<tbody>
+    <tr>
+        <td id="cor2" onclick="mover()"><a href="#"><img src="1x/b_rook_1x.png"></td>
+        <td id="cor1" onclick="mover()"><a href="#"><img src="1x/b_knight_1x.png"></td>
+        <td id="cor2" onclick="mover()"><a href="#"><img src="1x/b_bishop_1x.png"></td>
+        <td id="cor1" onclick="mover()"><a href="#"><img src="1x/b_queen_1x.png"></td>
+        <td id="cor2" onclick="mover()"><a href="#"><img src="1x/b_king_1x.png"></td>
+        <td id="cor1" onclick="mover()"><a href="#"><img src="1x/b_bishop_1x.png"></td>
+        <td id="cor2" onclick="mover()"><a href="#"><img src="1x/b_knight_1x.png"></td>
+        <td id="cor1" onclick="mover()"><a href="#"><img src="1x/b_rook_1x.png"></td>
+    </tr>
+    <tr>
+        <td id="cor1" onclick="mover()"><a href="#"><img src="1x/b_pawn_1x.png"></a></td>
+        <td id="cor2" onclick="mover()"><a href="#"><img src="1x/b_pawn_1x.png"></td>
+        <td id="cor1" onclick="mover()"><a href="#"><img src="1x/b_pawn_1x.png"></td>
+        <td id="cor2" onclick="mover()"><a href="#"><img src="1x/b_pawn_1x.png"></td>
+        <td id="cor1" onclick="mover()"><a href="#"><img src="1x/b_pawn_1x.png"></td>
+        <td id="cor2" onclick="mover()"><a href="#"><img src="1x/b_pawn_1x.png"></td>
+        <td id="cor1" onclick="mover()"><a href="#"><img src="1x/b_pawn_1x.png"></td>
+        <td id="cor2" onclick="mover()"><a href="#"><img src="1x/b_pawn_1x.png"></td>
+    </tr>
+    <tr>
+        <td id="cor2"></td>
+        <td id="cor1"></td>
+        <td id="cor2"></td>
+        <td id="cor1"></td>
+        <td id="cor2"></td>
+        <td id="cor1"></td>
+        <td id="cor2"></td>
+        <td id="cor1"></td>
+    </tr>
+    <tr>
+        <td id="cor1"></td>
+        <td id="cor2"></td>
+        <td id="cor1"></td>
+        <td id="cor2"></td>
+        <td id="cor1"></td>
+        <td id="cor2"></td>
+        <td id="cor1"></td>
+        <td id="cor2"></td>
+    </tr>
+    <tr>
+        <td id="cor2"></td>
+        <td id="cor1"></td>
+        <td id="cor2"></td>
+        <td id="cor1"></td>
+        <td id="cor2"></td>
+        <td id="cor1"></td>
+        <td id="cor2"></td>
+        <td id="cor1"></td>
+    </tr>
+    <tr>
+        <td id="cor1"></td>
+        <td id="cor2"></td>
+        <td id="cor1"></td>
+        <td id="cor2"></td>
+        <td id="cor1"></td>
+        <td id="cor2"></td>
+        <td id="cor1"></td>
+        <td id="cor2"></td>
+    </tr>
+    <tr>
+        <td id="cor2" onclick="mover()"><a href="#"><img src="1x/w_pawn_1x.png"></td>
+        <td id="cor1" onclick="mover()"><a href="#"><img src="1x/w_pawn_1x.png"></td>
+        <td id="cor2" onclick="mover()"><a href="#"><img src="1x/w_pawn_1x.png"></td>
+        <td id="cor1" onclick="mover()"><a href="#"><img src="1x/w_pawn_1x.png"></td>
+        <td id="cor2" onclick="mover()"><a href="#"><img src="1x/w_pawn_1x.png"></td>
+        <td id="cor1" onclick="mover()"><a href="#"><img src="1x/w_pawn_1x.png"></td>
+        <td id="cor2" onclick="mover()"><a href="#"><img src="1x/w_pawn_1x.png"></td>
+        <td id="cor1" onclick="mover()"><a href="#"><img src="1x/w_pawn_1x.png"></td>
+    </tr>
+    <tr>
+        <td id="cor1" onclick="mover()"><a href="#"><img src="1x/w_rook_1x.png"></td>
+        <td id="cor2" onclick="mover()"><a href="#"><img src="1x/w_knight_1x.png"></td>
+        <td id="cor1" onclick="mover()"><a href="#"><img src="1x/w_bishop_1x.png"></td>
+        <td id="cor2" onclick="mover()"><a href="#"><img src="1x/w_queen_1x.png"></td>
+        <td id="cor1" onclick="mover()"><a href="#"><img src="1x/w_king_1x.png"></td>
+        <td id="cor2" onclick="mover()"><a href="#"><img src="1x/w_bishop_1x.png"></td>
+        <td id="cor1" onclick="mover()"><a href="#"><img src="1x/w_knight_1x.png"></td>
+        <td id="cor2" onclick="mover()"><a href="#"><img src="1x/w_rook_1x.png"></td>
+    </tr>
+    </tbody>
+</table> 
+
+<script>
+    alert('Bem-vindo ao meu tabuleiro de xadrez!')
+    function mover() {
+        alert('Você não pode mover as peças!')
+    }
+
+</script>
+
+</body>
+</html>
